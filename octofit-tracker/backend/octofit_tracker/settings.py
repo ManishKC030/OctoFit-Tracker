@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-4#!hd0+49danr+8()$88#+ciy9jl6%wn79foph)4gtqn#0yqla
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'stunning-space-fiesta-9769w76wx59634jw-8000.app.github.dev']
 
 
 # Application definition
@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "rest_framework",
-    "djongo",
     "corsheaders",
     "octofit_tracker",
 ]
@@ -80,7 +79,7 @@ WSGI_APPLICATION = "octofit_tracker.wsgi.application"
 
 DATABASES = {
     'default': {
-        'ENGINE': 'djongo',
+        'ENGINE': '',  # pymongo does not require an ENGINE setting
         'NAME': 'octofit_db',
         'HOST': 'localhost',
         'PORT': 27017,
