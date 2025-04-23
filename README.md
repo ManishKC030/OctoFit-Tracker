@@ -2,6 +2,8 @@
 
 ⭐️ Congratulations ManishKC030! ⭐️
 
+streak
+
 You completed this exercise! Nice work! 🥳
 
 If you would like to practice again, you can retrace your steps below. Just press the **Start Exercise** button again.
